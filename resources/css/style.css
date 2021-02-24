@@ -18,6 +18,15 @@ html{
     text-rendering: optimizeLegibility;
 
 }
+
+.clearfix {zoom:1}
+.clearfix::after {
+    content:'.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 /* ----------------------------------- */
 /* Reseuble comment */
 /* ----------------------------------- */
@@ -269,6 +278,9 @@ header {
 .works-step {
     margin-bottom: 30px;
 }
+.works-step:last-of-type{
+    margin-bottom: 50px;
+}
 .works-step div{
     color:#e67e22;
     border: 2px solid #e67e22;
@@ -278,8 +290,14 @@ header {
     width: 50px;
     text-align: center;
    padding:5px;
-   float: left;
+   float:left;
    font-size: 150%;
    margin-right: 25px;
 
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
