@@ -245,3 +245,30 @@ header {
     transform: scale(1.03);
 
 }
+
+
+/*                   */
+/*     How it Works    */
+/*                    */
+
+.steps-box{
+    margin-top:30px;
+    padding-right: 3%;
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-left:3%
+}
+
+.app-screen {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.works-step {
+    margin-bottom: 30px;
+}
+.works-step div{
+
+}
