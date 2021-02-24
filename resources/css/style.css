@@ -256,9 +256,12 @@ header {
 }
 
 
-/*                   */
-/*     How it Works    */
-/*                    */
+ /* ----------------------------------- */
+/*   How it Works
+/* ----------------------------------- */
+.section-step{
+    background-color: #f4f4f4;
+}
 
 .steps-box{
     margin-top:30px;
