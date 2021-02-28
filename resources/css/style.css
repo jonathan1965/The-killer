@@ -93,14 +93,23 @@ h2::after{
     font: size 90%;
     line-height: 145%;
 }
-
-/* Icons */
+/* **************** */
+/*      Icons       */
+/* **************** */
 
 .big-icon{
     font-size: 350%;
     display: block;
     color:#e67e22;
     margin-bottom: 10px;
+}
+
+.small-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    
 }
 
 /*  Buttons */
@@ -303,4 +312,21 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+/* ******************** */
+/*        Cities        */
+/* ******************** */
+
+.box img {
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+
+
+}
+
+
+.city-feature{
+     margin-bottom: 5px;
 }
