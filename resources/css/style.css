@@ -340,7 +340,7 @@ header {
 .btn-app:visited{
     border: 0;
 }
-
+ 
 .btn-app img {
   height: 50px;
   width: auto;
@@ -362,4 +362,14 @@ header {
 
 .city-feature{
      margin-bottom: 5px;
+}
+
+/* ************** */
+/* Tstimony */
+/* ************** */
+
+.section-testimony{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.7)),url(/resources/img/back-customers.jpg);
+   background-size: cover;
+   color: white;
 }
