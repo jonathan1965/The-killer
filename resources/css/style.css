@@ -14,7 +14,7 @@ html{
     color: #555;
     font-family: 'lato','Arial',sans-serif;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 700px;
     text-rendering: optimizeLegibility;
 
 }
@@ -508,3 +508,81 @@ textarea {
 /* ----------------------------------- */
 /*---------------Footer----------------*/
 /* ------------- --------------------- */
+
+footer {
+    background-color:#333;
+    padding: 50px;
+    font-size: 80% ;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-icon{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-icon li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-icon li:last-child {
+    margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icon li a:link,
+.social-icon li a:visited{
+      text-decoration: none;
+      border:0;
+      color: #888;
+      transition:color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+/* .social-icon li a:hover,
+.social-icon li a:visited{
+   font-size:140%
+} */
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram,
+.ion-social-googleplus{
+         transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+    color:#3b5998;
+}
+
+.ion-social-twitter:hover{
+    color:#00aced;
+}
+
+.ion-social-googleplus:hover{
+    color:#dd4b39;
+}
+
+.ion-social-instagram:hover{
+    color: #517fa4;
+}
+
+footer p {
+    color:#888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+}
+
+
