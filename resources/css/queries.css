@@ -38,6 +38,17 @@
       .works-step:last-of-type { margin-bottom: 60px;}
 
       .app-screen{ width: 50%}
+      
+      .small-icon{width: 20px;}
+      .city-feature{font-size: 90%;}
+
+      .plan-box {
+        width: 100%;
+        margin-left: 0%;
+      }
+      .plan-price{font-size: 300%;}
+      .contact-form{width: 80%;}
+      
 
   }
 

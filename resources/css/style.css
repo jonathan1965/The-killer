@@ -14,7 +14,7 @@ html{
     color: #555;
     font-family: 'lato','Arial',sans-serif;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 00px !important;
     text-rendering: optimizeLegibility;
 
 }
@@ -353,6 +353,7 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+  
 }
 /* ******************** */
 /*        Cities        */
@@ -421,8 +422,8 @@ cite img{
     background-color: #f4f4f4;
 
 }
-
-.plan-box{
+.plan-box
+{
     background-color: #fff; 
     border-radius: 5px ;
     width: 90%;
